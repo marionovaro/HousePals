@@ -35,7 +35,7 @@ export const Header = () => {
         <header className="headerDesktop">
           <Link to={"/"} className="headerImg">
             <img
-              src="https://res.cloudinary.com/daxddugwt/image/upload/v1702550399/Untitled_Artwork_33_nmkluc.png"
+              src={theme == "light" ? "https://res.cloudinary.com/dx2arqne6/image/upload/v1704652282/1_rvreuv.png" : "https://res.cloudinary.com/dx2arqne6/image/upload/v1704652282/2_x0vifs.png"}
               alt="Logo de la clínica"
             />
           </Link>

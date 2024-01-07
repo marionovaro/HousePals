@@ -44,18 +44,17 @@ const StyledHeader = styled.div`
 
 .redes {
   display: flex;
-
   gap: 2vw;
   margin-right: 2vw;
 }
 .botonesH {
   display: flex;
   gap: 10px;
-
+  height: fit-content;
   justify-content: flex-end;
   align-items: center;
   margin-right: 3vw;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 .botonesH img{
  height: 50px;
@@ -73,6 +72,7 @@ const StyledHeader = styled.div`
 .navDos {
   display: flex;
   justify-content: flex-end;
+  height: 50%;
   gap: 20px;
   align-items: center;
   color: rgb(74, 206, 130);
@@ -81,6 +81,7 @@ const StyledHeader = styled.div`
 
 .headerImg img {
   width: 100%;
+  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,10 +90,16 @@ const StyledHeader = styled.div`
 }
 .headerImg {
   display: flex;
-  padding: 10px;
+  padding: 10px 10px 10px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.navDos{
+  height: fit-content;
+}
+.navDos > ul{
+  margin: 0;
 }
 .navDos ul li:hover {
   cursor: pointer;
